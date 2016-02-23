@@ -1,5 +1,5 @@
 //
-//  TabBarViewController.swift
+//  TabBarButtonCenterViewController
 //  buttonOnTabBar
 //
 //  Created by Ángel David Macho Esperilla on 12/02/2016.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+class TabBarButtonCenterViewController: UITabBarController {
 
     override func viewDidLoad() {
         
