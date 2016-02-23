@@ -44,7 +44,11 @@ class TabBarButtonCenterViewController: UITabBarController {
     
     func doSomething() {
         
-        print("Action of camera button")
+        let alertController: UIAlertController = UIAlertController(title: nil, message: "Action of the button", preferredStyle: .Alert)
+        let okAction = UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: nil)
+        alertController.addAction(okAction)
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
         
     }
     
