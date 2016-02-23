@@ -6,7 +6,7 @@ If we want to get a UITabBarController as the below, we will just create a custo
 
 ![image][1]
 
-If we just want an action when we click in one of our UITabBarItems, we just have to create a translucent UIButton and set it on one of the TabBarItems.
+If we just want an action when we click in one of our UITabBarItems, we have to create a translucent UIButton and set it on one of the TabBarItems.
 
 ![image][2]
 
