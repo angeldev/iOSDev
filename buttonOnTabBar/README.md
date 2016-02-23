@@ -12,4 +12,4 @@ If we just want an action when we click in one of our UITabBarItems, we just hav
 
 
 [1]: https://github.com/angeldev/iOSDev/blob/master/buttonOnTabBar/Images/UITabBarControllerButtonCenter.png "TabBarControllerWithCenterButton"
-[2]: https://github.com/angeldev/iOSDev/blob/master/buttonOnTabBar/Images/UITabBarControllerButtonTranslucent.png "TabBarControllerWithButtonTranslucent"
+[2]: https://github.com/angeldev/iOSDev/blob/master/buttonOnTabBar/Images/UITabBarControllerTranslucentButton.png "TabBarControllerWithButtonTranslucent"
