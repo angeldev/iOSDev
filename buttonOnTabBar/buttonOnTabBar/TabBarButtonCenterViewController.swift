@@ -31,17 +31,17 @@ class TabBarButtonCenterViewController: UITabBarController {
         // Creates a Button
         let cameraButton = UIButton(type: .Custom)
         // Sets width and height to the Button
-        cameraButton.frame = CGRectMake(0.0, 0.0, imageCameraButton.size.width, imageCameraButton.size.height);
+        cameraButton.frame = CGRectMake(0.0, 0.0, imageCameraButton.size.width, imageCameraButton.size.height)
         // Sets image to the Button
         cameraButton.setBackgroundImage(imageCameraButton, forState: .Normal)
         // Sets the center of the Button to the center of the TabBar. How to set the center of the button depends if the image is circular and its height is bigger than the tabBar
-        let heightDifference: CGFloat = imageCameraButton.size.height - self.tabBar.frame.size.height;
+        let heightDifference: CGFloat = imageCameraButton.size.height - self.tabBar.frame.size.height
         if heightDifference < 0 {
-            cameraButton.center = self.tabBar.center;
+            cameraButton.center = self.tabBar.center
         } else {
-            var center: CGPoint = self.tabBar.center;
-            center.y = center.y - heightDifference / 2.0;
-            cameraButton.center = center;
+            var center: CGPoint = self.tabBar.center
+            center.y = center.y - heightDifference / 2.0
+            cameraButton.center = center
         }
         // Sets an action to the Button
         cameraButton.addTarget(self, action: "doSomething", forControlEvents: .TouchUpInside)
